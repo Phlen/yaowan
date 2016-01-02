@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+        content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="__PUBLIC__/images/logo.jpg"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/common.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/style.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/fontstyle.css">
+
+	<title>新闻资讯--news</title>
+</head>
+<body>
+	<!--moblie-nav begin-->
+<div class="mobile-nav">
+	<ul class="menu">
+		<li><a href="{:U('index/index')}">首页</a></li>
+		<li><a href="{:U('about/index')}">关于我们</a></li>
+		<li><a class="active" href="{:U('newsList/index')}">新闻资讯</a></li>
+		<li><a href="{:U('manager/index')}">中国合伙人</a></li>
+		<li><a href="{:U('join/index')}">加入家族</a></li>
+		<li><a href="{:U('contact/index')}">联系我们</a></li>
+		<li><a href="http://www.9game.cn/" target="_blank">九游网</a></li>
+	</ul>					
+</div>
+<!--mobile-nav end-->
+
+<!--header beign-->
+<div class="header">
+	<div class="wrapper">
+		<div class="main">
+			<a  class = "logo" href="{:U('index/index')}"><i class = "green">Yao</i>wan</a>
+			<strong></strong>
+			<div class="nav">
+				<ul class="menu">
+					<li><a href="{:U('index/index')}">首页</a></li>
+					<li><a href="{:U('about/index')}">关于我们</a></li>
+					<li><a class="active" href="{:U('newsList/index')}">新闻资讯</a></li>
+					<li><a href="{:U('manager/index')}">中国合伙人</a></li>
+					<li><a href="{:U('join/index')}">加入家族</a></li>
+					<li><a href="{:U('contact/index')}">联系我们</a></li>
+					<li><a href="http://www.9game.cn/" target="_blank">九游网</a></li>
+				</ul>					
+			</div>
+			<a id="showMenu" class="showMenu" href="javascript:;"><span></span></a>
+		</div>
+	</div>
+</div>
+<!--header end-->
+<!--main begin-->
+<div class="content-box">
+	<div class="content-wrap">
+		<div class="content">
+			<div class="sidebar">
+				<div class="side-main">
+					<h2>新闻资讯</h2>
+				</div>
+			</div>
+			
+			<div class="title">
+				<h2>新闻资讯</h2>
+			</div>
+			<div class="main news-main">
+				<div class="wrapper">
+				<ul class="news-list">
+					<volist name="item" id="vo">
+						<li>
+							<i class="arrow_carrot-2right"></i>
+							<a href="{:U('news/index','','')}/id/{$vo.ID}">{$vo.post_title}</a>
+							<span class="date">{$vo.post_date}</span>
+						</li>
+					</volist>
+					
+				</ul>
+				<div class="pagination-box">
+					<ul class="pagination">
+						 <li>
+              				<if condition="$page['page'] eq 1">
+			                <span>上一页</span>
+			                <else/>
+			                <a href="{:U('index', '', '')}/page/{$page['page'] - 1}">上一页</a>
+			              </if>
+			            </li>
+			            <for start="1" end="$page['page_count'] + 1">
+			              <li>
+			                <if condition="$i eq $page['page']">
+			                  <span>{$page.page}</span>
+			                  <else/>
+			                  <a href="{:U('index', '', '')}/page/{$i}">{$i}</a>
+			                </if>
+			              </li>
+			            </for>
+			            <li>
+			              <if condition="$page['page'] egt $page['page_count']">
+			                <span>下一页</span>
+			                <else/>
+			                <a href="{:U('index', '', '')}/page/{$page['page'] + 1}">下一页</a>
+			              </if>
+			            </li>
+					</ul>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--main end-->
+<!--footer begin-->
+	<div class="footer">
+		<div class="wrapper">
+			<div class="main">
+				<div class="company-logo">
+					<div class="logo"><img src="__PUBLIC__/images/logo.jpg"></div>
+					<p>耀玩网络科技有限公司</p>
+				</div>
+				<div class="qrcode">
+					<div class="content">
+					<img src="__PUBLIC__/images/qrcode.png">
+				</div>
+				</div>				
+				<div class="info">
+					<p><a href="javascript:;">增值电信业务经营许可证：粤 XXXXXXXXXXX</p>
+					<p><a href="javascript:;">网络文化经营许可证：粤网文 XXXXXXXXXXXX</p>
+					<p><a href="javascript:;">互联网出版许可证：XXXXXXXXXXXXX</p>
+					<p><a href="javascript:;">版权所有 &copy;耀玩网络科技有限公司</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--footer end-->
+</body>
+<script type="text/javascript" src="__PUBLIC__/js/lib/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/lib/lte-ie7.js"></script>
+</html>
