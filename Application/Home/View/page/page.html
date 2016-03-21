@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<include file="public/head" />
+	<volist name="page" id="vo">
+		<title>{$vo.post_title}</title>
+	</volist>
+</head>
+<body>
+<!--moblie-nav begin-->
+	<div class="mobile-nav">
+		<ul class="menu">
+			<li><a href="__ROOT__">首页</a></li>
+			<include file="public/nav"/>
+			<li><a href="__ROOT__/newsList">新闻资讯</a></li>
+			<li><a href="__ROOT__/contact">联系我们</a></li>
+			<li><a href="http://www.9game.cn/" target="_blank">九游网</a></li>
+		</ul>					
+	</div> 
+<!--mobile-nav end-->
+
+<!--header beign-->
+	<div class="header">
+		<div class="wrapper">
+			<div class="main">
+				<a class = "logo" href="__ROOT__"><i class = "green">Yao</i>wan</a>
+				<strong></strong>
+				<div class="nav">
+					<ul class="menu">
+						<li><a href="__ROOT__">首页</a></li>
+						<include file="public/nav"/>
+						<li><a href="__ROOT__/newsList">新闻资讯</a></li>
+						<li><a href="__ROOT__/contact">联系我们</a></li>
+						<li><a href="http://www.9game.cn/" target="_blank">九游网</a></li>
+					</ul>					
+				</div>
+				<a id="showMenu" class="showMenu" href="javascript:;"><span></span></a>
+			</div>
+		</div>
+	</div>
+<!--header end-->
+<!--main begin-->
+<div class="content-box">
+	<div class="content-wrap">
+		<div class="content">
+			<div class="sidebar">
+				<div class="side-main">
+					<h2>公司介绍</h2>
+				<ul>
+					<include file="public/nav"/>
+					<li><a href="__ROOT__/contact">联系我们</a></li>
+				</ul>
+				</div>
+			</div>
+			
+			<div class="title">
+				<volist name="page" id="vo">
+					<h2>{$vo.post_title}</h2>
+				</volist>
+			</div>
+			<div class="main">
+				<div class="wrapper">
+					<volist name="page" id="vo">
+						{$vo.post_content}
+					</volist>
+				</div>
+			</div> 
+		</div>
+	</div>
+</div>
+<!--main end-->
+<!--footer begin-->
+<include file="public/footer"/>
+</body>
+<include file="public/script"/>
+</html>

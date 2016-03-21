@@ -1,0 +1,10 @@
+
+	<volist name="cate" id="vo">
+		<if condition="$vo.term_id eq $page_id">
+			<li>
+				<a class="active" href="__ROOT__/page/{$vo.term_id}">{$vo.name}</a>
+			</li>
+			<else />
+			<li><a href="__ROOT__/page/{$vo.term_id}">{$vo.name}</a></li>
+		</if>
+	</volist>

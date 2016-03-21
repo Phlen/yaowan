@@ -1,0 +1,862 @@
+[ 2016-01-10T15:08:49+08:00 ] 127.0.0.1 /work/yaowan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003343s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011926s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.010707s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_title` = 'slider' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002779s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002820s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 1 ) ORDER BY post_date DESC LIMIT 3   [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002362s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000566s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\code\work\yaowan\Application\Home\Controller\IndexController.class.php on line 18 and defined G:\code\work\yaowan\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\code\work\yaowan\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2016-01-10T15:10:26+08:00 ] 127.0.0.1 /work/yaowan/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.006998s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.010682s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 2 )  [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.005186s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.001630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002201s ]
+
+[ 2016-01-10T15:10:37+08:00 ] 127.0.0.1 /work/yaowan/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002699s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002960s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 5 )  [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002352s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000700s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-01-10T15:10:40+08:00 ] 127.0.0.1 /work/yaowan/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003131s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003130s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 4 )  [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002677s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000787s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-01-10T15:10:48+08:00 ] 127.0.0.1 /work/yaowan/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.006457s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.007937s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 5 )  [ RunTime:0.001983s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.005519s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.001332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002014s ]
+
+[ 2016-01-10T15:10:50+08:00 ] 127.0.0.1 /work/yaowan/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002926s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003070s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 4 )  [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002500s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000746s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-01-10T15:10:51+08:00 ] 127.0.0.1 /work/yaowan/newsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003140s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003296s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 1 ) ORDER BY post_date DESC LIMIT 0,10   [ RunTime:0.000537s ]
+SQL: SELECT count(ID) as total_count FROM `wp_posts` WHERE `post_type` = 'post' AND `post_status` = 'publish' LIMIT 1   [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002497s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000821s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 19 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 19 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 19 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 41 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 41 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-01-10T15:11:06+08:00 ] 127.0.0.1 /work/yaowan/newsList/index/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003128s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003213s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 1 ) ORDER BY post_date DESC LIMIT 10,10   [ RunTime:0.004449s ]
+SQL: SELECT count(ID) as total_count FROM `wp_posts` WHERE `post_type` = 'post' AND `post_status` = 'publish' LIMIT 1   [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002741s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000741s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 19 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 19 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 19 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 41 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 41 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2016-01-10T15:11:09+08:00 ] 127.0.0.1 /work/yaowan/newsList/index/page/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003108s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003076s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 1 ) ORDER BY post_date DESC LIMIT 0,10   [ RunTime:0.000838s ]
+SQL: SELECT count(ID) as total_count FROM `wp_posts` WHERE `post_type` = 'post' AND `post_status` = 'publish' LIMIT 1   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002665s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000931s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 19 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 19 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 19 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 41 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 41 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\0e340711eb92ee78520ea35ec299e109.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-01-10T15:11:14+08:00 ] 127.0.0.1 /work/yaowan/news/66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003164s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'post' AND `ID` = '66'  [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002799s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000810s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-01-10T15:11:17+08:00 ] 127.0.0.1 /work/yaowan/news/51
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003078s ]
+SQL: SELECT * FROM `wp_posts` WHERE `post_type` = 'post' AND `ID` = '51'  [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002657s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000774s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\6be51b3900cccae2c73119baf20891ff.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2016-01-10T15:11:23+08:00 ] 127.0.0.1 /work/yaowan/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002700s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\eb2e5548204b43da1a4358751a3a2cb1.php 第 28 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\eb2e5548204b43da1a4358751a3a2cb1.php 第 28 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\eb2e5548204b43da1a4358751a3a2cb1.php 第 28 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\eb2e5548204b43da1a4358751a3a2cb1.php 第 50 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\eb2e5548204b43da1a4358751a3a2cb1.php 第 50 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\eb2e5548204b43da1a4358751a3a2cb1.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-01-10T15:11:26+08:00 ] 127.0.0.1 /work/yaowan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.006476s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_title` = 'slider' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002904s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003121s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 1 ) ORDER BY post_date DESC LIMIT 3   [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002519s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000637s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\code\work\yaowan\Application\Home\Controller\IndexController.class.php on line 18 and defined G:\code\work\yaowan\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\code\work\yaowan\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2016-01-10T15:12:25+08:00 ] 127.0.0.1 /work/yaowan/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001039s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.009607s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.007756s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 5 )  [ RunTime:0.001873s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.005646s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.001374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001691s ]
+
+[ 2016-01-10T15:12:27+08:00 ] 127.0.0.1 /work/yaowan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003150s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_title` = 'slider' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002952s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003049s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 1 ) ORDER BY post_date DESC LIMIT 3   [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002659s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000634s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\code\work\yaowan\Application\Home\Controller\IndexController.class.php on line 18 and defined G:\code\work\yaowan\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\code\work\yaowan\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-01-10T15:24:11+08:00 ] 127.0.0.1 /work/yaowan/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001334s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002403s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.006985s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.007639s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 2 )  [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.006298s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.001549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002610s ]
+
+[ 2016-01-10T15:24:13+08:00 ] 127.0.0.1 /work/yaowan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003332s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_title` = 'slider' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003142s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003261s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 1 ) ORDER BY post_date DESC LIMIT 3   [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002540s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000624s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\code\work\yaowan\Application\Home\Controller\IndexController.class.php on line 18 and defined G:\code\work\yaowan\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\code\work\yaowan\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2016-01-10T15:25:44+08:00 ] 127.0.0.1 /work/yaowan/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002466s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.004991s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.005749s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 2 )  [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.003642s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.001463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2016-01-10T15:27:00+08:00 ] 127.0.0.1 /work/yaowan/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002275s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.008534s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.001840s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\eb2e5548204b43da1a4358751a3a2cb1.php 第 28 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\eb2e5548204b43da1a4358751a3a2cb1.php 第 28 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\eb2e5548204b43da1a4358751a3a2cb1.php 第 28 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\eb2e5548204b43da1a4358751a3a2cb1.php 第 50 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\eb2e5548204b43da1a4358751a3a2cb1.php 第 50 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\eb2e5548204b43da1a4358751a3a2cb1.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002283s ]
+
+[ 2016-01-10T15:30:11+08:00 ] 127.0.0.1 /work/yaowan/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003191s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003299s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 2 )  [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002472s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2016-01-10T15:30:13+08:00 ] 127.0.0.1 /work/yaowan/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003074s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003144s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 5 )  [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002711s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.001124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2016-01-10T15:30:14+08:00 ] 127.0.0.1 /work/yaowan/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003187s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003017s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 4 )  [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002430s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000650s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2016-01-10T15:31:19+08:00 ] 127.0.0.1 /work/yaowan/page/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001809s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.006633s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.007110s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 5 )  [ RunTime:0.002112s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.005537s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.002252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003278s ]
+
+[ 2016-01-10T15:31:21+08:00 ] 127.0.0.1 /work/yaowan/page/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002793s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002921s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 4 )  [ RunTime:0.001279s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002215s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2016-01-10T15:31:22+08:00 ] 127.0.0.1 /work/yaowan/page/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003183s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003060s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 2 )  [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.002513s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2016-01-10T15:31:24+08:00 ] 127.0.0.1 /work/yaowan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003206s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_title` = 'slider' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002992s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.003490s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 1 ) ORDER BY post_date DESC LIMIT 3   [ RunTime:0.003973s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.003000s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000794s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\code\work\yaowan\Application\Home\Controller\IndexController.class.php on line 18 and defined G:\code\work\yaowan\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\code\work\yaowan\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2016-01-10T17:02:49+08:00 ] 127.0.0.1 /work/yaowan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' G:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' G:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002659s ]
+SQL: SELECT `post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_title`,`post_excerpt`,`post_status`,`comment_status`,`ping_status`,`post_password`,`post_name`,`to_ping`,`pinged`,`post_modified`,`post_modified_gmt`,`post_content_filtered`,`post_parent`,`guid`,`menu_order`,`post_type`,`post_mime_type`,`comment_count` FROM `wp_posts` WHERE `post_type` = 'attachment' AND `post_title` = 'slider' ORDER BY post_date DESC LIMIT 5   [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002680s ]
+SQL: SHOW COLUMNS FROM `wp_posts` [ RunTime:0.002905s ]
+SQL: SELECT * FROM `wp_posts` INNER JOIN wp_term_relationships ON wp_posts.ID = wp_term_relationships.object_id  WHERE wp_posts.post_type = 'post' AND wp_posts.post_status = 'publish' AND ( wp_term_relationships.term_taxonomy_id = 1 ) ORDER BY post_date DESC LIMIT 3   [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `wp_terms` [ RunTime:0.003174s ]
+SQL: select * from wp_terms where wp_terms.slug <> 'uncategorized' [ RunTime:0.000677s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\code\work\yaowan\Application\Home\Controller\IndexController.class.php on line 18 and defined G:\code\work\yaowan\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\code\work\yaowan\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] Undefined variable: page_id G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 40 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+NOTIC: [8] A non well formed numeric value encountered G:\code\work\yaowan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+

@@ -1,0 +1,1 @@
+select * from wp_term_taxonomy wtt join wp_terms wt where wtt.term_id = wt.term_id and wtt.taxonomy = 'category' and wt.slug <> 'uncategorized'

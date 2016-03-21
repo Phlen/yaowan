@@ -1,0 +1,170 @@
+@charset "utf-8";
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/layout";
+@import "./function";
+
+@font-face {
+  font-family: dressler;
+  src: url("../../font/Dressler-Light.otf") format('truetype');
+}
+
+.green {
+	color:#75BD02;
+}
+body {
+	/* width: 100%; */
+	margin:0 auto;
+	min-width:980px;
+	font-size:14px;	
+	font-family:"微软雅黑"
+
+	a {
+		color:#ffffff;
+	}
+}
+
+.header {
+	height:rem(200);
+	width:100%;
+	font-size:rem(14);
+	background:#080808;
+
+	.wrapper {
+		width: rem(900);
+		/* width: 980px; */
+		margin: 0 auto;
+		height: rem(100);
+	}
+
+	.main {
+		width: 100%;
+		overflow: hidden;
+		h1 {
+			
+			float: left;
+			font-family: dressler;
+			/* padding-top:rem(34); */
+			padding: rem(25) 0 0 rem(30);
+
+			a {
+				text-decoration: none;
+				font-size: rem(64);
+				font-weight: 700;
+				color: #fff;
+			}
+		}
+
+		/* .logo {
+			float: left;
+			padding: rem(34) 0 0 rem(30);
+		} */
+		
+		.nav {
+			float: right;
+			padding-top:rem(25);
+		}
+		.menu {
+			list-style: none;
+			overflow: hidden;
+			li {
+				position: relative;
+				float: left;
+				background:url('../../images/menu-spacer.gif')left  no-repeat;
+				&:first-child{
+					background:none;
+				}
+
+				a {
+					text-decoration: none;
+					font-size: rem(16);
+					line-height: 2.5em;
+					/* font-size: 20px; */
+					color: #ffffff;
+					display: inline-block;
+					/* padding:8px 10px 9px 15px; */
+					padding:rem(10) rem(20);
+
+					&:hover {
+						color: #75BD02;
+					}
+				}
+
+				.active {
+					color: #75BD02;
+				}
+			}
+		}
+	}
+}
+
+.footer {
+	width:100%;
+	/* height:rem(100); */
+	color:#888;
+	background:#080808;
+	overflow:hidden;
+
+	a {
+	color:#888;
+	text-decoration:none;
+	line-height:rem(22);
+	}
+
+	.wrapper {
+		width: rem(900);
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	.main {
+		overflow: hidden;
+		padding-bottom:20px;
+	}
+	.company-logo {
+		float: left;
+		padding:20px 50px 0 50px;
+		/* padding-left:50px;
+		padding-right: 50px; */
+		background:url('../../images/menu-spacer.gif')repeat-y center right;
+		.logo {
+			width: 100px;
+			height: 100px;
+			padding-left:20px;
+			padding-bottom: 15px;
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+
+	.qrcode {
+		float: left;
+		overflow: hidden;
+		padding-top:20px;
+		padding-bottom:10px;
+		background:url('../../images/menu-spacer.gif')repeat-y center right;
+		.content {
+			float:left;
+			width: 110px;
+			height:110px;
+			margin-left:50px;
+			padding-right:50px;
+			background:url('../../images/code-bg.png') no-repeat;
+
+			img {
+				padding:5px;
+			}
+		}
+	}
+
+	.info {
+		float: left;
+		padding:20px 0 0 50px;
+		a {
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}

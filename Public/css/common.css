@@ -78,8 +78,8 @@ body {
   /* width: 100%; */
   margin: 0 auto;
   font-size: 16px;
-  font-family: "微软雅黑" a;
-  font-family-color: #ffffff;
+  font-family: "微软雅黑";
+  color: #333;
 }
 
 /* line 27, ../sass/common.scss */
@@ -238,7 +238,8 @@ body {
   width: 100%;
   position: relative;
   overflow: hidden;
-  background: url("../images/content-box-bg.gif");
+  // background: url("../images/content-box-bg.gif");
+  background-color: #f8f8f8;
 }
 /* line 173, ../sass/common.scss */
 .content-box .content-wrap {
@@ -246,7 +247,13 @@ body {
   margin: 30px auto;
   margin-bottom: 50px;
   overflow: hidden;
-  background: url("../images/content-bg.gif");
+/*   background: url("../images/content-bg.gif"); */
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(128,128,128, .5);
+  -webkit-box-shadow: 0 0 5px rgba(128,128,128, .5);
+  -moz-box-shadow: 0 0 5px rgba(128,128,128, .5);
+
 }
 /* line 181, ../sass/common.scss */
 .content-box .content {
@@ -281,6 +288,10 @@ body {
   color: #333;
   margin-bottom: 20px;
 }
+.sidebar h2 a {
+  text-decoration: none;
+  color: #333;
+}
 /* line 208, ../sass/common.scss */
 .content-box .sidebar ul {
   list-style: none;
@@ -292,15 +303,18 @@ body {
   color: #444;
   line-height: 30px;
 }
+.sidebar ul a:hover {
+  color: #75BD02;
+}
 /* line 217, ../sass/common.scss */
-.content-box .sidebar ul .cur {
+.content-box .sidebar ul .active {
   color: #75BD02;
   text-decoration: underline;
 }
 /* line 223, ../sass/common.scss */
 .content-box .main {
   width: 729px;
-  border-left: 1px solid #999;
+  border-left: 1px solid #dcdcdc;
   min-height: 250px;
   float: left;
 }
@@ -308,7 +322,7 @@ body {
 .content-box .wrapper {
   padding: 0 30px 30px 30px;
   min-height: 250px;
-  text-align: center;
+  /* text-align: center; */
 }
 /* line 234, ../sass/common.scss */
 .content-box .wrapper .about-img {
@@ -327,8 +341,18 @@ body {
   background: url("../images/culture.jpg") no-repeat center top;
 }
 /* line 246, ../sass/common.scss */
-.content-box .wrapper .img-box {
+/* .content-box .wrapper .img-box {
   height: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-size: cover;
+} */
+.content-box .wrapper p {
+  overflow: hidden;
+}
+.content-box .wrapper img {
+  height: 300px;
+  width: 660px;
   margin: 0 auto;
   margin-bottom: 30px;
   background-size: cover;
@@ -337,7 +361,7 @@ body {
 .content-box .wrapper .main-box {
   width: 100%;
   line-height: 30px;
-  font-weight: 700;
+  font-size: 14px;
 }
 /* line 256, ../sass/common.scss */
 .content-box .wrapper .main-box a {
@@ -374,13 +398,21 @@ body {
     color: #333;
     margin-bottom: 20px;
   }
+
+ .title h2 a{
+  text-decoration: none;
+  color: #333;
+ }
   /* line 286, ../sass/common.scss */
   .content-box .main {
     width: 100%;
     border: none;
   }
   /* line 290, ../sass/common.scss */
-  .content-box .main .img-box {
+  /* .content-box .main .img-box {
+    height: 200px;
+  } */
+  .content-box .main img {
     height: 200px;
   }
 }
@@ -436,7 +468,7 @@ body {
   float: left;
   overflow: hidden;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   background: url("../images/menu-spacer.gif") repeat-y center right;
 }
 /* line 344, ../sass/common.scss */
@@ -454,6 +486,7 @@ body {
 }
 /* line 358, ../sass/common.scss */
 .footer .info {
+  font-size: 14px;
   float: left;
   padding: 20px 0 0 50px;
 }

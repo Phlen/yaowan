@@ -1,0 +1,11 @@
+[ 2016-03-20T21:20:40+08:00 ] 127.0.0.1 /work/yaowan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Use of undefined constant URL_ROUTER_ON - assumed 'URL_ROUTER_ON' H:\code\work\yaowan\Application\Home\Conf\config.php 第 4 行.
+NOTIC: [8] Use of undefined constant URL_ROUTE_RULES - assumed 'URL_ROUTE_RULES' H:\code\work\yaowan\Application\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+ERR: Unknown database 'yaowan_db'
+

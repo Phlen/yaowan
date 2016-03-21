@@ -1,0 +1,14 @@
+<div class="mobile-nav">
+	<ul class="menu">
+		<li><a class="active" href="{:U('index/index')}">首页</a></li>
+		<volist name="cate" id="vo">
+			<li><a href="{:U('page/index','','')}/id/{$vo.term_id}">{$vo.name}</a></li>
+		</volist>
+		<!-- <li><a href="{:U('about/index')}">关于我们</a></li> -->
+		<li><a href="{:U('newsList/index')}">新闻资讯</a></li>
+		<!-- <li><a href="{:U('manager/index')}">中国合伙人</a></li> -->
+		<!-- <li><a href="{:U('join/index')}">加入家族</a></li> -->
+		<li><a href="{:U('contact/index')}">联系我们</a></li>
+		<li><a href="http://www.9game.cn/" target="_blank">九游网</a></li>
+	</ul>							
+</div>

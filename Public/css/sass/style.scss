@@ -1,0 +1,284 @@
+@charset "utf-8";
+@import "compass/css3";
+@import "compass/layout";
+@import "./function";
+@font-face {
+  font-family: dressler;
+  src: url("../../font/Dressler-Light.otf") format('truetype');
+}
+@font-face {
+  font-family: huawen;
+  src: url("../../font/huawen.ttf") format('truetype');
+}
+.home-content {
+	width:100%;
+	overflow:hidden;
+	/* grllery begin --> */
+	.gallery-wrap {
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+  		background:#E9E9E9;
+  		/* background:url('../../images/content-bg.jpg') */
+	}
+	.gallery {
+		width: 100%;
+		overflow: hidden;
+
+		.slider {
+			text-align: center;
+			position:relative;
+			width: 100%;
+			height: 100%;
+		}
+
+		.roundabout-holder {
+		  width: 1024px;
+		  height: 550px;
+		  margin: 0 auto;
+		  overflow: hidden;
+		}
+
+		.roundabout-moveable-item {
+		  width: 900px;
+		  height: 440px;
+		  cursor: pointer;
+		  border:3px solid #ccc;
+		  border:3px solid rgba(0, 0, 0, 0.08);
+		  border-radius:4px;
+		  -moz-border-radius:4px;
+		  -webkit-border-radius:4px;
+		}
+
+		.roundabout-moveable-item img{
+		  width:100%;
+		  height: 100%;
+		}
+
+		.roundabout-in-focus {
+		  border:3px solid rgba(0, 0, 0, 0.2);
+		}
+
+		@media screen and (max-width: 800px) { 
+		
+		.roundabout-holder {
+		  width: 100%;
+		  height: 300px;
+		  margin: 0 auto;
+		  overflow: hidden;
+		}
+
+		.roundabout-moveable-item {
+		  width: 80%;
+		  height: 250px;
+		}
+
+
+	}
+	}	
+
+
+	/* gallery end <-- */
+
+/*main-box-->begin*/
+.main-box {
+	overflow:hidden;
+  	border-top: 5px solid #eaeaea;
+  	width: 100%;
+  	background-color: #FFFFFF;
+
+  h2 {
+	font-size:30px;
+	font-family:huawen;
+	margin-bottom:30px;
+	color:#222;
+
+	span {
+		color: #8a8a8a;
+	}
+}
+}
+
+.main-box .container {
+  width: 1024px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media screen and(max-width:800px) {
+	.main-box .container {
+		width: 100%;
+		.sidebar {
+			width: 90%;
+		}
+	}
+}
+.main-box .container .inside {
+  padding: 30px 20px 20px 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+.inside .sidebar {
+  width: 30%;
+  float: left;
+}
+.sidebar .news li {
+  position: relative;
+ 
+  margin-bottom: 20px;
+}
+
+.inside .sidebar .news li:last-child {
+  padding-bottom: 5px;
+}
+.sidebar .news li .figure {
+  width: 60px;
+  height: 60px;
+  margin-left: 0px;
+  position: absolute;
+  left:0;
+  top:0;
+  text-align:center;
+  border:3px solid #ebebeb;
+  border-radius:4px;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  font-size:10px;
+  color:#fff;
+  text-transform:uppercase;
+}
+
+.news li .figure strong {
+  display:block;
+  font-size:30px;
+  line-height:1.2em;
+  padding-top:4px;
+}
+
+.news h3,.news p{
+  padding:10px 0 0 85px
+}
+
+.news h3 a {
+  color: #111111;
+  font-size: 14px;
+}
+.news h3 a:hover {
+  text-shadow: 1px 1px 1px #888;
+}
+
+.news .item1 .figure {
+  background: url("../../images/date-bg1.gif")no-repeat 0 0;
+}
+.news .item2 .figure {
+  background: url("../../images/date-bg2.gif")no-repeat 0 0;
+}
+.news .item3 .figure {
+  background: url("../../images/date-bg3.gif")no-repeat 0 0;
+}
+
+/*sidebar-->end*/
+
+/*main-->begin*/
+.inside .main {
+  	width: 63%;
+  	float: right;
+  	padding:0 20px;
+	
+	.img-box {
+		height: 250px;
+		background:url(../../images/about.jpg)no-repeat center bottom;
+		background-size: cover;
+	}	
+}
+
+.main h2 {
+  font-size: 30px;
+  font-family: huawen;
+}
+.main p {
+  line-height: 30px;
+}
+
+
+@media screen and(max-width:800px) {
+	.inside .main {
+		display: none;
+	}	
+}
+}
+
+.map .wrapper {
+	padding:0;
+}
+.map-title {
+	margin-bottom:10px;
+	p {
+		font-weight: 700;
+		line-height: 30px;
+	}
+}
+.cut-line {
+	width:100%;
+	height:1px;
+	border:1px dashed #333;
+}
+
+.news-main {
+	.wrapper {
+		padding-top:50px;
+		text-align: left;
+		position:relative;
+
+		.news-list {
+			overflow: hidden;
+			list-style: none;
+			li {
+				margin-bottom: 10px;
+				border-bottom : 1px dashed #333;
+			}
+			a {
+				color: #333;
+				text-decoration: none;
+				line-height: 30px;
+
+				&:hover {
+					color: #75BD02;
+				}
+			}
+			.date {
+				float: right;
+				line-height: 30px;
+			}
+		}
+
+		.pagination-box {
+			position:absolute;
+			left: 50%;
+			bottom:20px;
+
+			.pagination {
+
+				li {
+					display: inline-block;
+				}
+				span {
+					line-height: 40px;
+					padding:0 5px;
+					cursor: pointer;
+
+					&:hover {
+						color: #75BD02;
+						text-decoration: underline;
+					}
+				}
+				.cur {
+					color: #75BD02;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}

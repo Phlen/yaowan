@@ -2,16 +2,27 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-        content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <link rel="shortcut icon" href="/work/yaowan/Public/images/logo.jpg"/>
-    <link rel="stylesheet" type="text/css" href="/work/yaowan/Public/css/common.css">
-    <link rel="stylesheet" type="text/css" href="/work/yaowan/Public/css/style.css">
+<meta name="viewport"
+    content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="/work/yaowan/Public/images/logo.jpg"/>
+<link rel="stylesheet" type="text/css" href="/work/yaowan/Public/css/common.css">
+<link rel="stylesheet" type="text/css" href="/work/yaowan/Public/css/style.css">
 	<title>关于我们--about us</title>
 </head>
 <body>
 	<!--moblie-nav begin-->
-<div class="mobile-nav">
+	<div class="mobile-nav">
+	<ul class="menu">
+		<li><a href="<?php echo U('index/index');?>">首页</a></li>
+		<li><a href="<?php echo U('about/index');?>">关于我们</a></li>
+		<li><a class="active" href="<?php echo U('newsList/index');?>">新闻资讯</a></li>
+		<li><a href="<?php echo U('manager/index');?>">中国合伙人</a></li>
+		<li><a href="<?php echo U('join/index');?>">加入家族</a></li>
+		<li><a href="<?php echo U('contact/index');?>">联系我们</a></li>
+		<li><a href="http://www.9game.cn/" target="_blank">九游网</a></li>
+	</ul>					
+</div>
+<!-- <div class="mobile-nav">
 	<ul class="menu">
 		<li><a href="<?php echo U('index/index');?>">首页</a></li>
 		<li><a class="active" href="<?php echo U('about/index');?>">关于我们</a></li>
@@ -21,7 +32,7 @@
 		<li><a href="<?php echo U('contact/index');?>">联系我们</a></li>
 		<li><a href="http://www.9game.cn/" target="_blank">九游网</a></li>
 	</ul>					
-</div>
+</div> -->
 <!--mobile-nav end-->
 
 <!--header beign-->
@@ -71,7 +82,7 @@
 					<div class="main-box about-content">
 						<p>耀玩网络科技有限公司</p>
 						<p>成立于2015.8月</p>
-						<p>坐落于美丽的国家级软件产业基地——<a href="contact.html" target="_blank">广州天河软件园</a></p>
+						<p>坐落于美丽的国家级软件产业基地——<a href="<?php echo U('contact/index');?>" target="_blank">广州天河软件园</a></p>
 						<p>于鱼龙混杂的手游市场之中崛起，耀玩家族将自身定位为——</p>
 						<p>做一个阳光闪耀的企业！</p>
 						<p>不哄抬价格，诚信第一</p>
@@ -80,7 +91,7 @@
 						<p>闪耀于手游企业！</p>
 					</div>
 				</div>
-			</div>
+			</div> 
 		</div>
 	</div>
 </div>

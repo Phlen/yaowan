@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'ElegantIcons';
-	src:url('../../font/ElegantIcons/ElegantIcons.eot');
-	src:url('../../font/ElegantIcons/ElegantIcons.eot?#iefix') format('embedded-opentype'),
-		url('../../font/ElegantIcons/ElegantIcons.woff') format('woff'),
-		url('../../font/ElegantIcons/ElegantIcons.ttf') format('truetype'),
-		url('../../font/ElegantIcons/ElegantIcons.svg#ElegantIcons') format('svg');
+	src:url('../font/ElegantIcons/ElegantIcons.eot');
+	src:url('../font/ElegantIcons/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+		url('../font/ElegantIcons/ElegantIcons.woff') format('woff'),
+		url('../font/ElegantIcons/ElegantIcons.ttf') format('truetype'),
+		url('../font/ElegantIcons/ElegantIcons.svg#ElegantIcons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -110,9 +110,9 @@ you can use the generic selector below, but it's slower:
 .arrow_carrot-2left:before {
 	content: "\38";
 }
-/*.arrow_carrot-2right:before {
+.arrow_carrot-2right:before {
 	content: "\39";
-}*/
+}
 .arrow_carrot-up_alt2:before {
 	content: "\3a";
 }

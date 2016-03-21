@@ -1,0 +1,1 @@
+SELECT * from wp_posts wp join wp_term_relationships wtr where wp.ID = wtr.object_id and wtr.term_taxonomy_id = 2

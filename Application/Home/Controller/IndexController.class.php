@@ -3,6 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 use Home\Model\IndexModel;
 use Home\Model\NewsListModel;
+use Home\Model\CategoryModel;
 class IndexController extends Controller {
     public function index(){
     	$IndexModel = new IndexModel();
@@ -11,6 +12,9 @@ class IndexController extends Controller {
     	$NewsModel = new NewsListModel();
     	$newItem = $NewsModel->getIndexNews();
     	$this->assign('newItems',$newItem);
+    	$cateModel = new CategoryModel();
+    	$category = $cateModel->getCategory();
+    	$this->assign('cate',$category);
         $this->show();
     }
 }

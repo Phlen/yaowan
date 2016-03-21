@@ -6,10 +6,12 @@
 
 $(function() {
   window.onload = function () {
-  var paginationWidth = $('.pagination-box').width();
-  var marL = paginationWidth/2;
- $('.pagination-box').css({marginLeft:-marL});
+  // var paginationWidth = $('.pagination-box').width();
+  // var marL = paginationWidth/2;
+  // $('.pagination-box').css({marginLeft:-marL});
 
+ /* $(".wrapper-news [href$='.jpg']").addClass('img');
+  $('.img').css({display:'block',textAlign:'center'});*/
     $("#showMenu").on("click",function(){
     //通过判断按钮showMenu有没有active这个class名判断是否已经点击过
     if($(this).hasClass("active")){
@@ -25,7 +27,6 @@ $(function() {
     $(this).addClass("active");
     }
    
-})
-
-}
+  })  
+  }
 })
