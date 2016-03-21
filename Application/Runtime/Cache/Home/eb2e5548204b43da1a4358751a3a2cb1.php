@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 <meta name="viewport"
     content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="/work/yaowan/Public/images/logo.jpg"/>
-<link rel="stylesheet" type="text/css" href="/work/yaowan/Public/css/common.css">
-<link rel="stylesheet" type="text/css" href="/work/yaowan/Public/css/style.css">
+<link rel="shortcut icon" href="/git/yaowan/Public/images/logo.jpg"/>
+<link rel="stylesheet" type="text/css" href="/git/yaowan/Public/css/common.css">
+<link rel="stylesheet" type="text/css" href="/git/yaowan/Public/css/style.css">
 	<title>联系我们--contact us</title>
 	<!--引用百度地图API-->
 	<style type="text/css">
@@ -23,15 +23,15 @@
 <!--moblie-nav begin-->
 	<div class="mobile-nav">
 		<ul class="menu">
-			<li><a href="/work/yaowan">首页</a></li>
+			<li><a href="/git/yaowan">首页</a></li>
 			
 	<?php if(is_array($cate)): $i = 0; $__LIST__ = $cate;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if($vo["term_id"] == $page_id): ?><li>
-				<a class="active" href="/work/yaowan/page/<?php echo ($vo["term_id"]); ?>"><?php echo ($vo["name"]); ?></a>
+				<a class="active" href="/git/yaowan/page/<?php echo ($vo["term_id"]); ?>"><?php echo ($vo["name"]); ?></a>
 			</li>
 			<?php else: ?>
-			<li><a href="/work/yaowan/page/<?php echo ($vo["term_id"]); ?>"><?php echo ($vo["name"]); ?></a></li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
-			<li><a href="/work/yaowan/newsList">新闻资讯</a></li>
-			<li><a class="active" href="/work/yaowan/contact">联系我们</a></li>
+			<li><a href="/git/yaowan/page/<?php echo ($vo["term_id"]); ?>"><?php echo ($vo["name"]); ?></a></li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+			<li><a href="/git/yaowan/newsList">新闻资讯</a></li>
+			<li><a class="active" href="/git/yaowan/contact">联系我们</a></li>
 			<li><a href="http://www.9game.cn/" target="_blank">九游网</a></li>
 		</ul>					
 	</div> 
@@ -41,19 +41,19 @@
 	<div class="header">
 		<div class="wrapper">
 			<div class="main">
-				<a class = "logo" href="/work/yaowan"><i class = "green">Yao</i>wan</a>
+				<a class = "logo" href="/git/yaowan"><i class = "green">Yao</i>wan</a>
 				<strong></strong>
 				<div class="nav">
 					<ul class="menu">
-						<li><a href="/work/yaowan">首页</a></li>
+						<li><a href="/git/yaowan">首页</a></li>
 						
 	<?php if(is_array($cate)): $i = 0; $__LIST__ = $cate;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if($vo["term_id"] == $page_id): ?><li>
-				<a class="active" href="/work/yaowan/page/<?php echo ($vo["term_id"]); ?>"><?php echo ($vo["name"]); ?></a>
+				<a class="active" href="/git/yaowan/page/<?php echo ($vo["term_id"]); ?>"><?php echo ($vo["name"]); ?></a>
 			</li>
 			<?php else: ?>
-			<li><a href="/work/yaowan/page/<?php echo ($vo["term_id"]); ?>"><?php echo ($vo["name"]); ?></a></li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
-						<li><a href="/work/yaowan/newsList">新闻资讯</a></li>
-						<li><a class="active" href="/work/yaowan/contact">联系我们</a></li>
+			<li><a href="/git/yaowan/page/<?php echo ($vo["term_id"]); ?>"><?php echo ($vo["name"]); ?></a></li><?php endif; endforeach; endif; else: echo "" ;endif; ?>
+						<li><a href="/git/yaowan/newsList">新闻资讯</a></li>
+						<li><a class="active" href="/git/yaowan/contact">联系我们</a></li>
 						<li><a href="http://www.9game.cn/" target="_blank">九游网</a></li>
 					</ul>					
 				</div>
@@ -93,12 +93,12 @@
 		<div class="wrapper">
 			<div class="main">
 				<div class="company-logo">
-					<div class="logo"><img src="/work/yaowan/Public/images/logo.jpg"></div>
+					<div class="logo"><img src="/git/yaowan/Public/images/logo.jpg"></div>
 					<p>耀玩网络科技有限公司</p>
 				</div>
 				<div class="qrcode">
 					<div class="content">
-					<img src="/work/yaowan/Public/images/qrcode.png">
+					<img src="/git/yaowan/Public/images/qrcode.png">
 				</div>
 				</div>				
 				<div class="info">
@@ -112,9 +112,9 @@
 		</div>
 	</div>
 <!--footer end-->
-<script type="text/javascript" src="/work/yaowan/Public/js/lib/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/git/yaowan/Public/js/lib/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
-<script type="text/javascript" src="/work/yaowan/Public/js/common.js"></script>
+<script type="text/javascript" src="/git/yaowan/Public/js/common.js"></script>
 <script type="text/javascript">
     //创建和初始化地图函数：
     function initMap(){
